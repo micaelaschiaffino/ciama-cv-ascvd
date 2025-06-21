@@ -1,26 +1,34 @@
-# Calculadora de Riesgo Cardiovascular CIAMA
+# Calculadora de Riesgo Cardiovascular - CIAMA
 
-Calculadora basada en las ecuaciones de riesgo ASCVD (AHA/ACC) para estimar el riesgo a 10 años de enfermedad cardiovascular aterosclerótica (infarto, ACV).
+Esta herramienta permite estimar el riesgo de enfermedad cardiovascular aterosclerótica (ASCVD) a 10 años y el riesgo vitalicio, utilizando la fórmula de la American College of Cardiology / American Heart Association (ACC/AHA).
 
-### ✔ Fórmula implementada:
-- Incluye parámetros oficiales según raza, sexo, presión, lípidos, diabetes y tabaquismo.
-- Baseline survival y media correctas según cohortes Pooled Cohort Equations.
+📍 Versión personalizada para CIAMA, con contacto directo por WhatsApp y colores de alerta según nivel de riesgo.
 
-### 🔗 Cómo usar
+🔗 Accedé a la calculadora online:  
+➡️ https://micaelaschiaffino.github.io/ciama-cv-ascvd/
 
-1. Subí los siguientes archivos a GitHub:
-   - `index.html`
-   - `LogoCiamaPng-Color.png` (opcional)
+## ¿Cómo usarla?
 
-2. Activá GitHub Pages desde la configuración del repositorio, seleccionando la rama `main`.
+1. Ingresá los datos del paciente:
+   - Edad
+   - Sexo
+   - Raza
+   - Colesterol total
+   - HDL
+   - Presión sistólica
+   - Medicación antihipertensiva
+   - Diabetes
+   - Tabaquismo
 
-3. Tu calculadora estará accesible desde:
-   ```
-   https://usuario.github.io/nombre-repo/
-   ```
+2. Hacé clic en **"Calcular Riesgo"**.
 
-### 📌 Advertencia
-Esta herramienta es de **uso orientativo** y **no reemplaza** la valoración médica personalizada.
+3. Descargá el resultado en PDF o contactá directamente a CIAMA por WhatsApp para seguimiento médico.
+
+## Contacto
+
+📱 WhatsApp CIAMA: [+54 9 3329 524932](https://wa.me/543329524932)  
+📸 Instagram: [@ciamasanpedro](https://instagram.com/ciamasanpedro)
 
 ---
-Desarrollado para [CIAMA](https://www.instagram.com/ciamasanpedro/)
+
+*Esta herramienta es informativa y no reemplaza la evaluación médica personalizada.*
