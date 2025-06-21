@@ -1,1 +1,49 @@
-<!-- Archivo HTML principal de la calculadora CIAMA -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Riesgo Cardiovascular - CIAMA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="LogoCiamaPng-Color.png" alt="Logo CIAMA" class="logo" />
+    <h1>Calculadora de Riesgo Cardiovascular - CIAMA</h1>
+    <p>Estimación del riesgo de infarto o ACV en los próximos 10 años y riesgo vitalicio</p>
+    
+    <form id="formulario">
+      <input type="number" id="edad" placeholder="Edad" required />
+      <select id="sexo">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+      </select>
+      <select id="raza">
+        <option value="blanco">Blanca / Otro</option>
+        <option value="afroamericano">Afroamericano</option>
+      </select>
+      <input type="number" id="colesterolTotal" placeholder="Colesterol total" required />
+      <input type="number" id="hdl" placeholder="HDL" required />
+      <input type="number" id="presionSistolica" placeholder="Presión sistólica" required />
+      <select id="tratamientoPresion">
+        <option value="no">No</option>
+        <option value="si">Sí</option>
+      </select>
+      <select id="diabetes">
+        <option value="no">No</option>
+        <option value="si">Sí</option>
+      </select>
+      <select id="fumador">
+        <option value="no">No</option>
+        <option value="si">Sí</option>
+      </select>
+      <button type="submit">Calcular Riesgo</button>
+    </form>
+
+    <div id="resultado" class="resultado"></div>
+    <div id="recomendaciones" class="recomendaciones"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
