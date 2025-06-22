@@ -1,29 +1,57 @@
-Calculadora de Riesgo Cardiovascular - CIAMA
-Calculadora basada en el algoritmo ASCVD (estimación inicial) para estimar el riesgo de eventos cardiovasculares a 10 años.
-Actualmente se encuentra en desarrollo para asegurar una orientación precisa, confiable y útil para pacientes y profesionales.
+# Calculadora de Riesgo Cardiovascular - CIAMA
 
-🩺 Funcionalidad
-Ingreso de datos clínicos: edad, sexo, raza, colesterol, presión, tabaquismo, diabetes, etc.
+Calculadora interactiva basada en el modelo ASCVD (Atherosclerotic Cardiovascular Disease) para estimar el riesgo de infarto de miocardio o accidente cerebrovascular (ACV) en los próximos 10 años, en pacientes adultos de 40 a 79 años.
 
-Cálculo del riesgo estimado a 10 años (versión beta).
+Desarrollada por el equipo del **Centro Integral de Atención Médica Ambulatoria (CIAMA)** con fines educativos, preventivos y de orientación clínica.
 
-Recomendaciones generales preventivas.
+---
 
-Enlaces directos a CIAMA por WhatsApp e Instagram.
+## 🔍 ¿Qué calcula esta herramienta?
 
-📌 Próximos pasos
-Integración del algoritmo exacto ASCVD/Framingham.
+- **Riesgo cardiovascular a 10 años** basado en la ecuación ASCVD oficial del American College of Cardiology (ACC).
+- Interpreta el riesgo según edad, sexo, etnia, colesterol total y HDL, presión arterial sistólica, diabetes, tabaquismo y tratamiento antihipertensivo.
 
-Estimación de riesgo vitalicio.
+---
 
-Ajustes gráficos y adaptación a dispositivos móviles.
+## 📋 Instrucciones para el uso
 
-🚀 Instrucciones
-Subir todos los archivos del ZIP a GitHub.
+1. Ingresar los valores clínicos del paciente.
+2. Seleccionar las condiciones correspondientes en los menús desplegables.
+3. Presionar el botón **Calcular Riesgo**.
+4. Se mostrará una estimación del riesgo a 10 años con interpretación visual por colores y recomendaciones preventivas.
 
-Activar GitHub Pages desde la configuración del repositorio.
+---
 
-Acceder mediante:
+## 🧠 Interpretación de resultados
+
+- **Verde**: Riesgo bajo (<5%)
+- **Amarillo**: Riesgo intermedio (5-7.5%)
+- **Rojo**: Riesgo alto (>7.5%)
+
+> Esta herramienta **no reemplaza una consulta médica**. Es un apoyo para el trabajo clínico y la toma de decisiones compartida con el paciente.
+
+---
+
+## 🛠️ Instrucciones para desarrolladores
+
+1. Clonar o subir los archivos al repositorio en GitHub.
+2. Activar GitHub Pages desde la pestaña `Settings > Pages`.
+3. Seleccionar rama `main` y carpeta `/root`.
+4. Acceder al sitio desde la URL que genera GitHub Pages.
+
+---
+
+## 📞 Contacto
+
+CIAMA - Centro Integral de Atención Médica Ambulatoria  
+📍 San Pedro, Buenos Aires  
+📲 [Contactar por WhatsApp](https://wa.me/543329524932)  
+📷 [Instagram](https://www.instagram.com/ciamasanpedro)
+
+---
+
+© 2025 CIAMA - Todos los derechos reservados.
+
 https://[tu-usuario].github.io/ciama-cv-ascvd/
 
 📞 Contacto
