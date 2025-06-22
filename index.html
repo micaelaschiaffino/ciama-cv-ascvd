@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Riesgo Cardiovascular - CIAMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logo-ciama.png" alt="Logo CIAMA" style="max-height: 100px;">
+    <h1>Calculadora de Riesgo Cardiovascular - CIAMA</h1>
+    <p>Estimación del riesgo de infarto o ACV en los próximos 10 años</p>
+    <form id="riskForm">
+        <input type="number" id="age" placeholder="Edad" required><br>
+        <select id="sex">
+            <option value="male">Masculino</option>
+            <option value="female">Femenino</option>
+        </select><br>
+        <select id="race">
+            <option value="white">Blanca / Otro</option>
+            <option value="african_american">Afrodescendiente</option>
+        </select><br>
+        <input type="number" id="tc" placeholder="Colesterol total" required><br>
+        <input type="number" id="hdl" placeholder="HDL" required><br>
+        <input type="number" id="sbp" placeholder="Presión sistólica" required><br>
+        <select id="treatment">
+            <option value="false">No tratado</option>
+            <option value="true">Tratado</option>
+        </select><br>
+        <select id="smoker">
+            <option value="false">No fumador/a</option>
+            <option value="true">Fumador/a</option>
+        </select><br>
+        <select id="diabetic">
+            <option value="false">No diabético/a</option>
+            <option value="true">Diabético/a</option>
+        </select><br>
+        <button type="button" onclick="calculateRisk()">Calcular Riesgo</button>
+    </form>
+    <div id="result"></div>
+    <footer>
+        <p><strong>CIAMA</strong> | <a href="https://wa.me/543329524932" target="_blank">Contactar por WhatsApp</a> | <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
