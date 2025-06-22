@@ -1,59 +1,32 @@
-# 🫀 Calculadora de Riesgo Cardiovascular - CIAMA
+Calculadora de Riesgo Cardiovascular - CIAMA
+Calculadora basada en el algoritmo ASCVD (estimación inicial) para estimar el riesgo de eventos cardiovasculares a 10 años.
+Actualmente se encuentra en desarrollo para asegurar una orientación precisa, confiable y útil para pacientes y profesionales.
 
-Esta herramienta fue desarrollada por el **Centro Integral de Atención Médica Ambulatoria (CIAMA)** para estimar el riesgo de infarto o accidente cerebrovascular (ACV) a 10 años, utilizando la ecuación de riesgo ASCVD adaptada. Su objetivo es brindar orientación preventiva a pacientes y profesionales de salud.
+🩺 Funcionalidad
+Ingreso de datos clínicos: edad, sexo, raza, colesterol, presión, tabaquismo, diabetes, etc.
 
----
+Cálculo del riesgo estimado a 10 años (versión beta).
 
-## 📋 ¿Qué hace esta calculadora?
+Recomendaciones generales preventivas.
 
-- Estima el **riesgo cardiovascular a 10 años** según parámetros clínicos.
-- Brinda **recomendaciones generales** en función del nivel de riesgo.
-- Ofrece un diseño **visual, accesible y responsive**.
-- Incluye **enlaces directos** a contacto por WhatsApp e Instagram institucional.
+Enlaces directos a CIAMA por WhatsApp e Instagram.
 
-> ⚠️ Esta herramienta es informativa y **no reemplaza la evaluación médica personalizada**.
+📌 Próximos pasos
+Integración del algoritmo exacto ASCVD/Framingham.
 
----
+Estimación de riesgo vitalicio.
 
-## 🧮 Parámetros considerados
+Ajustes gráficos y adaptación a dispositivos móviles.
 
-- Edad
-- Sexo
-- Raza/Etnia
-- Colesterol total y HDL
-- Presión arterial sistólica (PAS)
-- Tratamiento antihipertensivo
-- Diabetes
-- Tabaquismo
+🚀 Instrucciones
+Subir todos los archivos del ZIP a GitHub.
 
----
+Activar GitHub Pages desde la configuración del repositorio.
 
-## 🚀 ¿Cómo usarla?
+Acceder mediante:
+https://[tu-usuario].github.io/ciama-cv-ascvd/
 
-1. **Cloná o descargá** este repositorio.
-2. Activá **GitHub Pages** desde la pestaña `Settings > Pages`.
-3. Elegí la rama `main` y carpeta `/root` como fuente.
-4. Accedé al sitio web en  
-   👉 `https://<tu-usuario>.github.io/ciama-cv-ascvd/`
-
----
-
-## 📱 Accesos rápidos
-
-- 📞 [Contactar por WhatsApp](https://wa.me/543329524932)
-- 📷 [Instagram CIAMA](https://www.instagram.com/ciamasanpedro/)
-
----
-
-## 📌 Créditos
-
-- Diseñado por: Médica Especialista en Clínica Médica - CIAMA  
-- Programación colaborativa con asistencia técnica de inteligencia artificial (GPT-4o)
-- Logo institucional: CIAMA
-
----
-
-## ✅ Licencia
-
-Este proyecto está publicado bajo la [Licencia MIT](LICENSE).  
-Podés usarlo, adaptarlo y compartirlo, citando la fuente original.
+📞 Contacto
+CIAMA
+📲 Contactar por WhatsApp
+📷 Instagram CIAMA
